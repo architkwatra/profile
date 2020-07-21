@@ -1,0 +1,29 @@
+>ul {
+    list-style-type: square;
+} 
+.hr {
+    background-color: lightgray;
+}
+@media screen and (max-width: 768px) {
+    .my-image-container {
+        margin-top: 1rem;
+        height: 16rem;
+
+        &.col-md-3 {
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (min-device-width: 760px) and (max-device-width: 1030px) and (orientation: portrait) {
+    .my-image {
+        height: 10rem !important;
+        width: 10rem !important;
+        margin-top: 5rem !important;       
+    }
+}
+    
+.my-image {
+    height: auto;
+    width: 15rem;
+}
