@@ -1,16 +1,4 @@
-#page-content {
-    flex: 1 0 auto;
-  }
-  
-  #sticky-footer {
-    flex-shrink: none;
-    border-top: 1rem solid coral;
-    margin-top: 1rem;
-  }
-  
-  /* Other Classes for Page Styling */
-  
-  body {
-    background: #007bff;
-    background: linear-gradient(to right, #0062E6, #33AEFF);
-  }
+#sticky-footer {
+  border-top: 1rem solid coral;
+  margin-top: 1rem;
+}
