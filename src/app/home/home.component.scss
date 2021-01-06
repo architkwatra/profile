@@ -11,3 +11,16 @@
         font-size: large;
     }
 }
+
+@media screen and (max-width: 768px) {
+
+    .main-container {
+        .row {
+            margin: 0%;
+        }
+
+        .text {
+            top: 8rem;
+        }
+    }
+}
